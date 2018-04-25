@@ -1,8 +1,11 @@
 package TestGitGrpID.TestGitArtificatID;
 
+import org.testng.annotations.Test;
+
 public class TestClass {
 
-	public static void main(String[] args) {
+	@Test
+	public void hello() {
 		// TODO Auto-generated method stub
 
 		System.out.println("Testing Git");
